@@ -15,4 +15,3 @@ print(object_1)
 print(object_1.__dict__)  # __dict__ USED TO ACCESS ITEM
 print(object_2.__dict__)
 print(object_3.__dict__)
-
