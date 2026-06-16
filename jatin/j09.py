@@ -1,0 +1,43 @@
+import numpy as np 
+
+arr = np.array ([[1,2],[3,4]])
+print(arr)
+print()
+zeros = np.zeros((2,4))
+print(zeros)
+print()
+ones = np.ones(4)
+print(ones)
+print()
+rng = np.arange(0,25,5)
+print(rng)
+print()
+arrng = np.arange(1,3)
+print(arrng)
+print()
+arng = np.arange(1,25)
+print(arng)
+print()
+
+lin = np.linspace(0,1,11)
+print(lin)
+print()
+
+random = np.random.randint(40,100,(2,4))
+print(random)
+print()
+
+array = np.identity(5)
+print(array)
+print()
+
+krr = np.arange(9,2,-1)
+print(krr)
+print()
+
+print(arr * 5)
+print()
+print(arr + 5)
+print()
+print(arr ** 5)
+print()

@@ -1,0 +1,5 @@
+print(arr)
+# print(arr.shape)
+# print(arr.head(3))
+# print(arr.dtypes)
+# print(arr.describe())
