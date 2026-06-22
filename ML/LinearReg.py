@@ -24,8 +24,8 @@ print(f'R^2 Score:  {r2_score(y_test,y_pred):.4f} (1.0 = perfect)')
 print(f'RMSE:       {mean_squared_error(y_test,y_pred)**0.5:.2f} marks average error')
 
 #     Predict new student
-new_pred = model.predict([[7]])[0]
-print(f'Student studying 7 hrs predicted marks: {new_pred:.1f}')
+new_pred = model.predict([[8]])[0]
+print(f'Student studying 8  hrs predicted marks: {new_pred:.1f}')
 
 #   Plot
 plt.figure(figsize=(9,5))
